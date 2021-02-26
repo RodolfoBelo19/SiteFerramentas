@@ -16,8 +16,6 @@ ReactDOM.render(
     <Header />
     <Main />
     <Footer />
-
-    
     
   </React.StrictMode>,
   document.getElementById('root')
