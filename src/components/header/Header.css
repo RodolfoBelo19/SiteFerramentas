@@ -6,8 +6,23 @@ nav {
     top: 0;
     padding: 0 5%;
     height: 60px;
-    background-color: #747475;
+    background: rgb(58, 57, 57);
     transition: all 0.3s ease;
+}
+
+nav .centralized {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav .search input {
+    max-width: 100%;
+    width: 300px;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
 }
 
 nav .logo {
@@ -27,7 +42,7 @@ nav .links {
     width: 60%;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -63,6 +78,13 @@ nav .icon-burger .line {
     background-color: #fff;
     margin: 5px;
     transition: all .3s ease-in-out;
+}
+
+@media screen and  (max-width: 920px) {
+
+    nav .search {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -118,5 +140,7 @@ nav .icon-burger .line {
         opacity: 0;
     }
    
-
+    nav .search {
+        display: none;
+    }
 }
