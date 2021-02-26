@@ -7,7 +7,7 @@ function Header() {
   return (
 
     <>
-  <h1>teste</h1>
+    
       <nav>
         <input id="nav-toggle" type="checkbox" />
         <div class="logo">NAV<strong>BAR</strong></div>
