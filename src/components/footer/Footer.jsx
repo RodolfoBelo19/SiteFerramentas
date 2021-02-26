@@ -1,4 +1,4 @@
-import './Footer.css';
+import '../../styles/component_styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
@@ -44,19 +44,14 @@ function Footer() {
                             <li>Privacy Policy</li>
                             <li>Terms</li>
                         </ul>
-                        </div>
                     </div>
-
-
-
-                        </div>
-
-                        <div className="cop">
-                            <strong><span>&copy; 2021 - Copyright - CFN</span></strong>
-                        </div>
-                
-        </footer>
+                </div>
+            </div>
+            <div className="cop">
+                <strong><span>&copy; 2021 - Copyright - CFN</span></strong>
+            </div>
             
+        </footer>
     )
 }
 
