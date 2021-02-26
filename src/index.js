@@ -14,6 +14,7 @@ ReactDOM.render(
   <React.StrictMode>
 
     <Header />
+    <Header />
     <Main />
     <Footer />
 
