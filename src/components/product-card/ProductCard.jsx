@@ -5,7 +5,7 @@ export default function ProductCard(props) {
         <div className="grid_content">
             <div className="prod-img" alt="prod"/>
             <p className="prod-name">{props.name}</p>
-            <h1 className="prod-price">R$ {props.price}</h1>
+            <p className="prod-price">R$ {props.price}</p>
         </div>
     )
 }
