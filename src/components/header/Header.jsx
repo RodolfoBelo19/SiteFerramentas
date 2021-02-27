@@ -31,7 +31,7 @@ function Header() {
           <ul className="links">
             <li><Link to={"/"}>Promoções</Link></li>
             <li><Link to={"/sobre"}>Sobre</Link></li>
-            <li><Link to={'/'}>Login</Link></li>
+            <li><Link to={'/login'}>Login</Link></li>
           </ul>
         </div>
 

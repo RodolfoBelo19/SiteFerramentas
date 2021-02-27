@@ -1,26 +1,38 @@
 import '../../styles/page_styles/Login.css';
-import '../../components/std-title/StdTitle';
+import { Link } from 'react-router-dom';
+import Header from '../../components/header/Header';
+import Footer from '../../components/footer/Footer';
 import StdTitle from '../../components/std-title/StdTitle';
 
 export default function Login() {
     return (
-        <div className="wrapper">
-            <StdTitle
-                title="Entrar" />
-            
-            <div className="form">
-                <div className="email">
-                    <p>E-mail</p>
-                    <input type="email"/>
-                </div>
+        <>
+            <Header />
+            <div className="login-wrapper">
+                               
+                <div className="form-area">
+                    <StdTitle
+                        title="Login" />
+                    <div className="form">
+                        <div className="email">
+                            <p>E-mail</p>
+                            <input type="email"/>
+                        </div>
 
-                <div className="password">
-                    <p>Senha</p>
-                    <input type="password"/>
-                </div>
+                        <div className="password">
+                            <p>Senha</p>
+                            <input type="password"/>
+                        </div>
 
-                <button>Entrar</button>
+                        <button>Entrar</button>
+                    </div>
+                    <footer className="login-footer">
+                        <p><Link className="footer-link" to="/dadada">Esqueci meu login</Link></p>
+                        <p><Link className="footer-link" to="/dadada">Esqueci minha senha</Link></p>
+                    </footer>
+                </div>
             </div>
-        </div>
+            <Footer />
+        </>
     )   
 }

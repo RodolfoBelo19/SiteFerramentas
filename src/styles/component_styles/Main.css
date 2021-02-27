@@ -1,21 +1,28 @@
 .main {
-    width: 1000px;
-    margin: 100px auto;  
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 40px;
+    background-color: white;
 }
 
 
 .grid_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
-@media screen and  (max-width: 1028px) {
+@media screen and  (max-width: 1520px) {
+    .grid_container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .main {
+        width: 90%;
+    }
+}
+
+@media screen and  (max-width: 1160px) {
     .grid_container {
         grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .main {
-        width: auto;
     }
 }
 
@@ -25,18 +32,14 @@
     }
 
     .main {
-        width: auto;
+        width: 95%;
     }
     
 }
 
-@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 600px) {
     .grid_container {
         grid-template-columns: 1fr;
-    }
-
-    .main {
-        width: auto;
     }
 
     
