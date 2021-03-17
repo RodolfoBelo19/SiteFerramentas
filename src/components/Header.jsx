@@ -8,8 +8,8 @@
 
 */
 
-import '../../styles/component_styles/Header.css';
-import Logo1 from '../../images/header/logo.png';
+import '../styles/component_styles/Header.css';
+import Logo1 from '../images/header/logo.png';
 import { Link }from 'react-router-dom';
 
 function Header() {

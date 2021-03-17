@@ -1,4 +1,4 @@
-import '../../styles/component_styles/StdTitle.css';
+import '../styles/component_styles/StdTitle.css';
 
 export default function StdTitle(props) {
     return (

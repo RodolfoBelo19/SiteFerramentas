@@ -14,9 +14,9 @@
 */
 
 
-import '../../styles/component_styles/Main.css';
-import StdTitle from '../std-title/StdTitle';
-import ProductCard from '../product-card/ProductCard';
+import '../styles/component_styles/Main.css';
+import StdTitle from './StdTitle';
+import ProductCard from './ProductCard';
 
 
 function Main() {
