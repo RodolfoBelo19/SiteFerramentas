@@ -1,4 +1,4 @@
-import '../../styles/component_styles/Footer.css';
+import '../styles/component_styles/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'

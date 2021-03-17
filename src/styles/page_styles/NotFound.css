@@ -1,0 +1,25 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 100px 40px;
+    background-color: white;
+}
+
+.paragraph {
+    margin: 40px 0 40px 8px;
+}
+
+.link {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 0 20px 8px;
+}
+
+.link .fa-chevron-left {
+    font-size: 24px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}

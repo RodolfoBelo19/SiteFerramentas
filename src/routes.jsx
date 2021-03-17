@@ -9,18 +9,14 @@
 */
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages/home/Home';
-import Sobre from './pages/sobre/Sobre';
-import Login from './pages/login/Login';
-import NotFound from './pages/not-found/NotFound';
+import Home from './pages/Home';
+import NotFound from './pages/NotFound';
 
 function Routes() {
     return (
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Home} />
-                <Route path="/sobre" component={Sobre} />
-                <Route path="/login" component={Login} />
                 <Route component={NotFound} />
             </Switch>
         </BrowserRouter>
